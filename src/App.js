@@ -20,7 +20,21 @@ function App() {
         </header>
         <main></main>
         <footer>
-          Coded by Sarei Aldaba. It's open source on GitHub and Netlify
+          Coded by Sarei Aldaba. It's open source on
+          <a
+            href="https://github.com/Saldaba95/dictionary-project-sa"
+            target="_blank"
+          >
+            {" "}
+            GitHub{" "}
+          </a>
+          and{" "}
+          <a
+            href="https://app.netlify.com/sites/dapper-cannoli-71b9f8/overview"
+            target="_blank"
+          >
+            Netlify
+          </a>
         </footer>
       </div>
     </div>

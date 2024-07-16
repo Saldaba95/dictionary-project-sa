@@ -29,12 +29,7 @@ export default function Dictionary() {
       <form onSubmit={search}>
         {" "}
         <input type="search" onChange={handleKeywordChange} />{" "}
-        <button
-          className="
-        btn btn-primary"
-        >
-          Search
-        </button>
+        <input className="btn btn-primary" type="submit" value="Submit" />
       </form>{" "}
       <Results results={results} />
     </div>
