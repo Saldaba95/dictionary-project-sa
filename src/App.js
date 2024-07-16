@@ -24,6 +24,7 @@ function App() {
           <a
             href="https://github.com/Saldaba95/dictionary-project-sa"
             target="_blank"
+            rel="noopener noreferrer"
           >
             {" "}
             GitHub{" "}
@@ -32,6 +33,7 @@ function App() {
           <a
             href="https://app.netlify.com/sites/dapper-cannoli-71b9f8/overview"
             target="_blank"
+            rel="noopener noreferrer"
           >
             Netlify
           </a>
