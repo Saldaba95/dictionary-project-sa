@@ -14,6 +14,7 @@ function App() {
             <div className="col-8">
               {" "}
               <h1>Welcome to Catalina's Dictionary</h1>
+              <h5>What word word would you like to look up?</h5>
               <Dictionary />
             </div>
           </div>
