@@ -8,12 +8,12 @@ function App() {
       <div className="container">
         <header className="App-header">
           <div className="row">
-            <div className="col-4">
+            <h1>Welcome to Catalina's Dictionary</h1>
+            <div className=" col-md-6 col-sm-12">
               <img src={cata} className="catalina" alt="logo" />
             </div>
-            <div className="col-8">
+            <div className=" col-md-6 col-sm-12">
               {" "}
-              <h1>Welcome to Catalina's Dictionary</h1>
               <h5>What word would you like to search?</h5>
               <br />
               <Dictionary />
@@ -22,7 +22,11 @@ function App() {
         </header>
         <main></main>
         <footer>
-          Coded by Sarei Aldaba. It's open source on
+          Coded by
+          <a href="https://www.shecodes.io/graduates/66500-sarei-aldaba">
+            Sarei Aldaba
+          </a>
+          . It's open source on
           <a
             href="https://github.com/Saldaba95/dictionary-project-sa"
             target="_blank"

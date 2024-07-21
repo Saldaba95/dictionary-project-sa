@@ -1,3 +1,23 @@
 .Dictionary {
   color: aliceblue;
 }
+.Dictionary section {
+  background: lightsalmon;
+  opacity: 0.7;
+  padding: 30px;
+  border-radius: 16px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.6);
+  margin: 20px 0;
+}
+
+.input {
+  width: 75%;
+  padding: 6px 4px;
+  border: 1px solid purple;
+  border-radius: 10px;
+}
+.btn {
+  width: 25%;
+  padding: 6px 4px;
+  border-radius: 10px;
+}

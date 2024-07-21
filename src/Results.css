@@ -1,0 +1,7 @@
+.Results {
+  background: darksalmon;
+  opacity: 0.9;
+  padding: 16px;
+  border-radius: 16px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.6);
+}
