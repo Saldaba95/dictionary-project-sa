@@ -4,10 +4,10 @@ export default function Phonetic(props) {
   if (props.phonetic) {
     return (
       <div className="Phonetic">
-        <h2>{props.phonetic}</h2>
+        <em>
+          <h5>{props.phonetic} </h5>
+        </em>
       </div>
     );
-  } else {
-    return null;
   }
 }

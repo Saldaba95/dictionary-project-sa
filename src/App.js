@@ -15,6 +15,7 @@ function App() {
               {" "}
               <h1>Welcome to Catalina's Dictionary</h1>
               <h5>What word would you like to search?</h5>
+              <br />
               <Dictionary />
             </div>
           </div>
