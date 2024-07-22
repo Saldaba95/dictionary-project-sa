@@ -12,7 +12,7 @@ function App() {
             <div className=" col-md-4 col-sm-12 image-fluid ">
               <img src={cata} className="catalina image-fluid" alt="logo" />
             </div>
-            <div className=" col-md-8 col-sm-12">
+            <div className=" col-md-8 col-sm-12 pt-5">
               {" "}
               <h5>What word would you like to search?</h5>
               <br />
