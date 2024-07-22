@@ -9,10 +9,10 @@ function App() {
         <header className="App-header">
           <div className="row">
             <h1>Welcome to Catalina's Dictionary</h1>
-            <div className=" col-md-6 col-sm-12">
-              <img src={cata} className="catalina" alt="logo" />
+            <div className=" col-md-4 col-sm-12 image-fluid ">
+              <img src={cata} className="catalina image-fluid" alt="logo" />
             </div>
-            <div className=" col-md-6 col-sm-12">
+            <div className=" col-md-8 col-sm-12">
               {" "}
               <h5>What word would you like to search?</h5>
               <br />
