@@ -2,8 +2,8 @@
   color: aliceblue;
 }
 .Dictionary section {
-  background: lightsalmon;
-  opacity: 0.7;
+  background: #cadefc;
+  color: black;
   padding: 30px;
   border-radius: 16px;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.6);
