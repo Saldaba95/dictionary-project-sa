@@ -6,7 +6,14 @@ export default function Photos(props) {
     return (
       <section className="Photos">
         {props.photos.map(function (photo, index) {
-          return <img src={photo.src.landscape} />;
+          return (
+            <div className="">
+              <a href={photo.src.original} target="_blank" rel="noreferrer">
+                {" "}
+                <img src={photo.src.landscape} />
+              </a>
+            </div>
+          );
         })}
       </section>
     );
