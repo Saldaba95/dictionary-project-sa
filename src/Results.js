@@ -10,13 +10,8 @@ export default function Results(props) {
         <h2>{props.results.word}</h2>
         <br />
         <Phonetic phonetic={props.results.phonetic} />
-        {props.results.meanings.map(function (meaning, index) {
-          return (
-            <section key={index}>
-              <Meaning meaning={meaning} />
-            </section>
-          );
-        })}
+
+        <Meaning meaning={props.results.meaning} />
       </div>
     );
   } else {
