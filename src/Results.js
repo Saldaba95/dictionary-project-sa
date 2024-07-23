@@ -7,11 +7,15 @@ export default function Results(props) {
   if (props.results) {
     return (
       <div className="Results">
-        <h2>{props.results.word}</h2>
-        <br />
-        <Phonetic phonetic={props.results.phonetic} />
+        <section>
+          <h2>{props.results.word}</h2>
 
-        <Meaning meaning={props.results.meaning} />
+          <Phonetic phonetic={props.results.phonetic} />
+        </section>
+
+        <section>
+          <Meaning meaning={props.results.meaning} />
+        </section>
       </div>
     );
   } else {
