@@ -16,7 +16,7 @@ function App() {
               {" "}
               <h5>What word would you like to search?</h5>
               <br />
-              <Dictionary />
+              <Dictionary defaultKeyword="Sunrise" />
             </div>
           </div>
         </header>
